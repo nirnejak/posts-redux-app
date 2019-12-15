@@ -1,0 +1,38 @@
+.App {
+  margin: auto;
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+
+    .App-logo {
+      height: 40vmin;
+    }
+
+    .App-title {
+      color: #09d3ac;
+    }
+  }
+}
+
+button {
+  background: #282c34 !important;
+  border: 1px #282c34 solid;
+}
+
+input[type="text"],
+textarea {
+  &:focus {
+    border: 1px #282c34 solid;
+  }
+}
+
+h3 {
+  font-weight: 400;
+}
